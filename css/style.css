@@ -1,0 +1,165 @@
+/*Début CSS général*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #f7f7f7;
+    text-align: justify;
+    text-justify: inter-word;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1vw;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+/*Fin CSS général*/
+
+/*Début du Header*/
+#header {
+    height: 9%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#menu {
+    width: 70%;
+    height: 100%;
+}
+
+#menu_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_content {
+    list-style-type: none;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*Fin du Header*/
+
+/*Début Body*/
+#body {
+    width: 100%;
+    height: 100%;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#text_wrapper {
+    width: 100%;
+    height: 40%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text_content {
+    width: 80%;
+}
+
+#team_sections {
+    width: 100%;
+    height: 100%;
+}
+
+.team_section_wrapper {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #000 solid;
+}
+
+.section_picture {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_add_picture {
+    border: solid 1px black;
+    width: 50%;
+    height: 90%;
+}
+
+.section_about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_about_wrapper {
+    padding: 5%;
+}
+
+.about_title {
+    margin-bottom: 3%;
+}
+
+.about_name_poste {
+    margin-bottom: 3%;
+}
+/*Fin du Body*/
+
+/*Début du Footer*/
+#footer {
+    background-color: #000;
+    width: 100%;
+    height: 4%;
+    color: #fff;
+}
+
+
+
+/*Fin du Footer*/
