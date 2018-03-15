@@ -74,7 +74,35 @@ h2 {
     width: 100%;
     height: 100%;
 }
+    /*Début about.html css*/
+#presentation_wrapper {
+    width: 100%;
+    height: 80%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.presentation {
+    width: 40%;
+    height: 50%;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.valeur_display {
+    width: 100%;
+    height: 18%;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+    /*Fin about.html css*/
+
+    /*Début equipe.html css*/
 #video {
     display: flex;
     justify-content: center;
@@ -99,6 +127,21 @@ h2 {
 #team_sections {
     width: 100%;
     height: 100%;
+}
+
+#team_section_list {
+    border: black 1px solid;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section_pole_pick {
+    width: 15%;
+    height: 80%;
+    border: solid black 1px;
 }
 
 .team_section_wrapper {
@@ -150,6 +193,8 @@ h2 {
 .about_name_poste {
     margin-bottom: 3%;
 }
+    /*Fin equipe.html css*/
+
 /*Fin du Body*/
 
 /*Début du Footer*/
@@ -159,7 +204,4 @@ h2 {
     height: 4%;
     color: #fff;
 }
-
-
-
 /*Fin du Footer*/
