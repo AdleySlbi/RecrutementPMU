@@ -126,14 +126,55 @@ h2 {
 }
 
 .choicer_jobtype {
-    margin: 0% 5%;
+    margin: 1% 7%;
     padding: 0% 30%; 
     width: 50%;
     background-color: rgb(128, 199, 126);
     border-radius: 10px;
+    color: #fff;
 }
 
+#offre_emploi {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.offer {
+    border: 1px solid #000;
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.job_title {
+    background-color: #c9c9c9;
+    padding: 2%;
+    color: #fff;
+}
+
+.job_description {
+    background-color: #fff;
+    padding: 2%;
+    color: #000;
+}
+
+#all_joboffer {
+    width: 100%;
+    text-align: center;
+}
+
+#button_all_joboffer {
+    color: #000;
+    background-color: green;
+    padding: 1%;
+    color: white;
+    border-radius: 10px;
+}
     /*Fin index.html css*/
 
     /*Début about.html css*/
