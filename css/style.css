@@ -10,32 +10,155 @@ html, body {
     width: 100%;
     background-color: #f7f7f7;
 }
-a {
-    text-decoration: none;
-    font-size: 1vw;
-}
 
 p {
-    font-size: 1vw;
+    font-size: 1.3vw;
+    margin: 1% 5%;
 }
 
 h1 {
     font-size: 3vw;
+    text-transform: uppercase;
+    color: #0C6A2F;
+    font-weight: 900;
+    margin: 2% 3%;
 }
 
 h2 {
     font-size: 2vw;
 }
+
+.citation {
+    color: #0C6A2F;
+    font-weight: bold;
+    font-size: 2.5vw;
+    font-style: italic;
+    text-align: center;
+    margin: 1% 0%;
+}
 /*Fin CSS général*/
 
 /*Début du Header*/
+/*CSS du menu*/
+#header {
+    width: 100%;
+    height: 70%;
+    background-image: url("../img/opacitéNoir.png"), url("../img/headerImg.png");
+    background-position: center;
+    background-size: cover;
+}
 
+#recrutement_logo_wrapper {
+    width: 100%;
+    max-height: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 1% 0;
+}
 
+#menu_wrapper {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu_ul {
+    display: flex;
+    list-style-type : none;
+    width: 100%;
+    justify-content: center;
+}
+
+ul#menu_ul a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+
+ul#menu_ul li {
+    margin: 0 4%;
+}
+/*Fin CSS du menu*/
 /*Fin du Header*/
 
 /*Début Body*/
+#body {
+    width: 100%;
+    height: 170%;
+}
 
-    
+#wrapper_presentation {
+    width: 100%;
+}
+
+.text_wrapper {
+    width: 100%;
+}
+
+
+
+#centered_title {
+    color: #0C6A2F;
+    font-size: 2vw;
+    text-align: center;
+    margin: 2% 0;
+}
+
+#category_offers {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.offers_box {
+    width: 80%;
+    height: 60%;
+    margin: 5%;
+    border-radius: 29px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_sizer {
+    width: 70%;
+    height: 70%;
+    margin: 5% 0;
+}
+
+.offers_type {
+    margin: 5%;
+}
+
+.content_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bouton_vert {
+    background-color: #0C6A2F;
+    color: white;
+    border: 1px solid #fff;
+    margin: 1%;
+    padding: 1% 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-align: center;
+}
+
 /*Fin du Body*/
 
 /*Début du Footer*/
