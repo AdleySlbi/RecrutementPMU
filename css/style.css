@@ -16,6 +16,11 @@ p {
     margin: 3% 15%;
 }
 
+.p_less_left_margin {
+    font-size: 1.3vw;
+    margin: 3% 7%;
+}
+
 h1 {
     font-size: 3vw;
     text-transform: uppercase;
@@ -32,6 +37,23 @@ h3 {
     font-size: 1.7vw;
     margin: 3% 0;
 }
+
+h4 {
+    font-size: 1.7vw;
+    margin: 2% 3%;
+    color: #0C6A2F;  
+}
+
+h5 {
+    font-size: 4vw;
+    text-align: center;
+    color: #0C6A2F;
+    font-weight: 500;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
 .citation {
     color: #0C6A2F;
     font-weight: bold;
@@ -203,7 +225,8 @@ ul#menu_ul li {
 /*Page About*/
 #text_header {
     width: 80%;
-    margin: 15% 5%;
+    padding: 15% 5%;
+    text-transform: uppercase;
 }
 
 .page_description {
@@ -211,6 +234,13 @@ ul#menu_ul li {
     font-weight: bold;
     margin: 5%;
     color: #fff;
+}
+
+.page_description_center {
+    font-size: 7vw;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
 }
 
 #effet_pmu {
@@ -239,38 +269,38 @@ ul#menu_ul li {
   }
 
 .image {
-display: block;
-width: 100%;
-height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlay {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-height: 100%;
-width: 100%;
-opacity: 1;
-transition: .5s ease;
-background-color: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #000;
 }
 
 .container_effet:hover .overlay {
-opacity: 0.7;
+    opacity: 0.7;
 }
 
 .text {
-color: white;
-font-size: 20px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-text-align: center;
-text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
 }
 /*Fin du carrousel*/
 #wrapper_valeurs_description {
@@ -450,8 +480,123 @@ ul#menu_ul_tabs li {
 }
 /*Fin page equipe*/
 
-/*Début page Offres*/
+/*Début page les Offres*/
+#trieur {
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 5%;
+    border: 1px solid black;
+}
 
+#wrapper_liste_offres {
+    width: 100%;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
 
+#offre1 {
+    width: 80%;
+    background-color: #fff;
+    height: 13%;
+    margin: 3%;
+    display: flex;
+}
+
+.img_offre {
+    height: 100%;
+}
+
+.wrapper_duration_offre {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.duration_offre_chiffre {
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.duration_offre_type {
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+.wrapper_description_offre {
+    width: 65%;
+}
+
+.check_offre {
+    margin: 7%;
+    text-decoration: none;
+    background-color: #0C6A2F;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1% 3%;
+    border-radius: 10px;
+}
 /*Fin page Offres*/
 
+/*Début page fiche metier*/
+.wrapper_description_poste {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.wrapper_description_poste p {
+    font-size: 1vw;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+.poste_description_complete h4 {
+    margin: 0 10%;
+    text-transform: uppercase;
+}
+
+.image_center_poste {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.image_center_poste img {
+    width: 30%;
+    margin: 0 0 1%;
+}
+
+.image_center_poste a {
+    color: #969494;
+    font-style: italic;
+    margin: 0 3%;
+}
+
+.postuler {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#postuler_button {
+    text-align: center;
+    background-color: #0C6A2F;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1% 5%;
+    text-transform: uppercase;
+    width: 20%;
+}
+/*Fin page fiche metier*/
