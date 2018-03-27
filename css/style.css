@@ -164,7 +164,6 @@ ul#menu_ul li {
 #footer {
     width: 100%;
     height: 40%;
-    border: 1px solid black;
     background-color: #D8D8D8;
 }
 
@@ -329,16 +328,69 @@ text-transform: uppercase;
 /*Page equipe*/
 #tabs {
     width: 100%;
-    background-color: red;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 3% 0;
+}
+
+#tabs p {
+    margin: 2% 10%;
+    width: 50%;
+    color: #000;
+}
+
+.team_button{
+    background-color: #FF792A;
+    margin: 10%;
+    padding: 1% 2%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 10px;
+}
+#tabs-1 {
+    background-image:  url("../img/photoPole/communication.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#tabs-2 {
+    background-image:  url("../img/photoPole/communication.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#tabs-3 {
+    background-image:  url("../img/photoPole/communication.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#tabs-4 {
+    background-image:  url("../img/photoPole/communication.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#tabs-5 {
+    background-image:  url("../img/photoPole/communication.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 #menu_ul_tabs {
     display: flex;
     list-style-type : none;
     width: 100%;
+    height: 30%;
     justify-content: space-around;
     background-color: #fff;
 }
@@ -349,16 +401,22 @@ ul#menu_ul_tabs a {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.3vw;
-    border: 1px solid black;
     width: 100%;
     height: 100%;
     display: inline-block;
-    /*padding: 4em 2em;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul#menu_ul_tabs li {
     width: 15%;
-    background-color: blueviolet;
+    height: 80%;
+    margin: 1%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #first_tab {
@@ -368,25 +426,25 @@ ul#menu_ul_tabs li {
 }
 
 #second_tab {
-    background-image: url("../img/photoPole/communication.jpg");
+    background-image: url("../img/opacitéNoir.png"), url("../img/photoPole/communication.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #third_tab {
-    background-image: url("../img/photoPole/communication.jpg");
+    background-image: url("../img/opacitéNoir.png"), url("../img/photoPole/communication.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #fourth_tab {
-    background-image: url("../img/photoPole/communication.jpg");
+    background-image: url("../img/opacitéNoir.png"), url("../img/photoPole/communication.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #fifth_tab {
-    background-image: url("../img/photoPole/communication.jpg");
+    background-image: url("../img/opacitéNoir.png"), url("../img/photoPole/communication.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
