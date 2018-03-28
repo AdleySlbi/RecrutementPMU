@@ -108,6 +108,38 @@ ul#menu_ul a {
 ul#menu_ul li {
     margin: 0 4%;
 }
+
+#whant_to_join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+#whant_to_join span {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+#whant_to_join hr {
+    color: white;
+    width: 20%;
+    margin: 1% 0;
+
+}
+
+#whant_to_join a {
+    background-color: #fff;
+    padding: 1% 2%;
+    border-radius: 10px;
+    margin: 0.5% 0 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
 /*Fin CSS du menu*/
 /*Fin du Header*/
 
@@ -201,6 +233,11 @@ ul#menu_ul li {
     height: 100%;
 }
 
+.footer_logo {
+    display: flex;
+    align-items: center;
+}
+
 .footer_element p {
     color: #0C6A2F;
     padding: 3%;
@@ -230,14 +267,14 @@ ul#menu_ul li {
 }
 
 .page_description {
-    font-size: 7vw;
+    font-size: 5vw;
     font-weight: bold;
     margin: 5%;
     color: #fff;
 }
 
 .page_description_center {
-    font-size: 7vw;
+    font-size: 5vw;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -583,11 +620,16 @@ ul#menu_ul_tabs li {
 }
 
 .postuler {
-    display: flex;
     width: 100%;
-    justify-content: center;
+    margin: 3% 0;
+}
+
+.accordion {
+    display: flex;
     flex-direction: column;
+    width: 100%;
     align-items: center;
+    background-color: red;
 }
 
 #postuler_button {
@@ -597,6 +639,7 @@ ul#menu_ul_tabs li {
     border-radius: 10px;
     padding: 1% 5%;
     text-transform: uppercase;
-    width: 20%;
+    width: 10%;
+    margin: 0 20%;
 }
 /*Fin page fiche metier*/
